@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Components/registration/registration.css" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/util.css" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      href="https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy-SemiBold"
+      rel="stylesheet"
+    />
+    <title>Red Cloud</title>
+  </head>
+  <body class="benjamin">
+    <main>
+      <section class="register container section2">
+        <div class="register__header">
+          <h1>Customer registration</h1>
+          <div class="register__back">
+            <h4 class="register__backh4">Back</h4>
+            <button class="register__backbtn">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect
+                  x="0.640137"
+                  y="0.846436"
+                  width="12.4489"
+                  height="12.4489"
+                  fill="url(#pattern0_1424_383)"
+                />
+                <defs>
+                  <pattern
+                    id="pattern0_1424_383"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0_1424_383"
+                      transform="scale(0.0111111)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0_1424_383"
+                    width="90"
+                    height="90"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVR4nO3cMUrEQABG4aCg1qu1di7a2YieT0TPYKmewMKTiNVurYKWYueTQYQFXTFL8m9k3neBDI+QTJKZNI0kSZIkSZIkSZIkhQGbwBhYNX4/gdeBa+CdTxPgwNjdR77lu6lndv+Rv+x3daxqAWvADb87XPY4a4hcGDoQuTB0IHJh6EDkwtCByIWhA5ELQwciF4YORC4MHYhcGDoQuTB0IHJh6AVeENXiDbgHToGtpktGnusJODZyxguw45mcceXlIuMV2BjC7KIGe974MtpNVYHz0MCoPfTDskf8Txl6qKHPUiOrPbSP2qn3Nk7vFjJuHdozO/TAYuzWLheObOw/ewa2my54g5zrETjqJLKxf3zxfwecAKNOI8/E9lNWih9ng1xuEOQCmiCXhAW5yDHIZbtBLkQPcmtFkJuFgtz+FuSGziDcojyI2FM33fcT+2LmNxIlsr+R6AswAnaBld4OIkmSJEmSJEmSJEnNcHwARlF2jtVdeSsAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <form class="register__companyform">
+          <div class="register__input">
+            <label class="register__lable" for="companyname"
+              >Company Name</label
+            >
+            <input
+              class="register__entry"
+              id="companyname"
+              type="text"
+              placeholder="Company name"
+            />
+          </div>
+          <div class="register__input">
+            <label class="register__lable" for="companyEmail"
+              >Company Email</label
+            >
+            <input
+              class="register__entry"
+              id="companyEmail"
+              type="Email"
+              placeholder="Company Email"
+            />
+          </div>
+          <div class="register__input itemcompanylogo">
+            <h4 class="register__lable">Company Logo</h4>
+            <label class="register__entry itemlogo" for="companylogo">
+              <svg
+                width="18"
+                height="19"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 11.4549V14.4549C15.75 14.8527 15.592 15.2343 15.3107 15.5156C15.0294 15.7969 14.6478 15.9549 14.25 15.9549H3.75C3.35218 15.9549 2.97064 15.7969 2.68934 15.5156C2.40804 15.2343 2.25 14.8527 2.25 14.4549V11.4549"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.75 6.2049L9 2.4549L5.25 6.2049"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 2.4549V11.4549"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </label>
+            <input class="register__entry" id="companylogo" type="file" />
+          </div>
+          <div class="register__input itemverfieddoc">
+            <h4 class="register__lable">Verfied Document</h4>
+            <label class="register__entry itemlogo" for="companydocument">
+              <svg
+                width="18"
+                height="19"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.75 11.4549V14.4549C15.75 14.8527 15.592 15.2343 15.3107 15.5156C15.0294 15.7969 14.6478 15.9549 14.25 15.9549H3.75C3.35218 15.9549 2.97064 15.7969 2.68934 15.5156C2.40804 15.2343 2.25 14.8527 2.25 14.4549V11.4549"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12.75 6.2049L9 2.4549L5.25 6.2049"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9 2.4549V11.4549"
+                  stroke="#161616"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </label>
+            <input class="Cutomer__entry" id="companydocument" type="file" />
+          </div>
+          <!-- DropDown -->
+          <div class="select-menu">
+            <div class="select-menu-wrap">
+              <label class="register__lable" for="">Sector</label>
+              <div class="select-btn">
+                <span class="sBtn-text">Select your option</span>
+                <svg
+                  width="7"
+                  height="6"
+                  viewBox="0 0 7 6"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.03366 5.4513C3.84121 5.78463 3.36008 5.78463 3.16763 5.45129L0.915406 1.55032C0.722956 1.21699 0.96352 0.800324 1.34842 0.800324L5.85287 0.800323C6.23777 0.800323 6.47834 1.21699 6.28589 1.55032L4.03366 5.4513Z"
+                    fill="#161616"
+                  />
+                </svg>
+              </div>
+            </div>
+            <ul class="options">
+              <li class="option">
+                <span class="option-text">Hotel</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Supermarket</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Cafeterias</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Restaurant</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Entertainment</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Manufacturing</span>
+              </li>
+              <li class="option">
+                <span class="option-text">Other</span>
+              </li>
+            </ul>
+          </div>
+          <!-- DropDown -->
+          <div class="register__input itemtextarea">
+            <label class="register__lable" for="companydescription"
+              >Company description</label
+            >
+            <textarea
+              class="register__textarea"
+              name="text"
+              id="companydescription"
+              placeholder="Write about your company"
+              rows="10"
+              cols="10"
+            ></textarea>
+          </div>
+          <div class="register__input">
+            <button class="register__btn itembtn"><a href="successful_page.html">Submit</a></button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="register__footer container section2">
+      <img
+        class="registerfooter__img"
+        src="/Images/redcloud.png"
+        alt="redcloud"
+      />
+    </footer>
+    <script src="/src/dropdown.js"></script>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+.benjamin {
+  margin-top: 12.8rem;
+}
+
+.register__companyform {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.register__header {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 16.5rem;
+  margin-bottom: 2rem;
+}
+.register__back {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.register__backh4 {
+  font-size: var(--size-sm);
+}
+
+.register__backbtn {
+  background-color: var(--clr-red);
+  border: 1px hidden;
+  padding: 10px;
+  border-radius: 100%;
+}
+.register__backbtn svg {
+  display: block;
+}
+
+.registerfooter__img {
+  width: 110px;
+  height: 60px;
+}
+
+.register__entry {
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  outline-color: var(--clr-lightgray);
+  border-radius: 50px;
+  padding: 13px;
+  width: 250px;
+  font-size: var(--size-xs);
+}
+
+.register__btn {
+  border: 1px hidden;
+  border-radius: 50px;
+  padding: 10px;
+  width: 250px;
+  font-size: var(--size-sm);
+  color: var(--clr-white);
+  background-color: var(--clr-red1);
+}
+
+.register__textarea {
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  outline-color: var(--clr-lightgray);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: var(--size-sm);
+  resize: none;
+  overflow: auto;
+  width: 250px;
+  height: auto;
+}
+
+.register__textarea::-webkit-scrollbar {
+  width: 3px;
+}
+.register__textarea::-webkit-scrollbar-thumb {
+  background-color: var(--clr-lightgray1);
+  border-radius: 50px;
+  height: 20px;
+}
+.register__textarea::-webkit-scrollbar-track {
+  border-radius: 10px;
+  margin: 2px;
+}
+
+::placeholder {
+  color: var(--clr-light2);
+}
+::-ms-input-placeholder {
+  color: var(--clr-light2);
+}
+.register__lable {
+  font-size: var(--size-sm);
+  color: var(--clr-black);
+}
+
+.register__input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.itemlogo {
+  display: flex;
+  justify-content: center;
+}
+
+/* dropdown */
+
+.select-menu {
+  position: relative;
+}
+
+.select-menu .select-btn {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  outline-color: var(--clr-lightgray);
+  border-radius: 50px;
+  padding: 13px;
+  width: 250px;
+  font-size: var(--size-xs);
+}
+.select-btn svg {
+  font-size: 25px;
+  transition: 0.3s;
+}
+.select-menu.active .select-btn svg {
+  transform: rotate(-180deg);
+}
+.select-menu .options {
+  position: absolute;
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  outline-color: var(--clr-lightgray);
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  padding: 13px;
+  width: 250px;
+  display: none;
+  background-color: var(--clr-white);
+}
+.select-menu.active .options {
+  display: block;
+}
+.options .option {
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+.options .option:hover {
+  background: #f2f2f2;
+}
+.option i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.option .option-text {
+  font-size: var(--size-xs);
+}
+
+/* .container {} */
+/* xs */
+@media (min-width: 475px) {
+}
+/* sm */
+/* @media (min-width: 640px) {
+} */
+/* md */
+/* @media (min-width: 768px) {
+} */
+/* lg */
+/* @media (min-width: 1024px) {
+} */
+/* xl */
+@media (min-width: 1280px) {
+  .register__companyform {
+    display: grid;
+    position: relative;
+    grid-template-columns: 15.625rem 15.625rem;
+    grid-template-rows: auto auto auto auto;
+    grid-row-gap: 1rem;
+    grid-column-gap: 5rem;
+    justify-content: center;
+  }
+  .itemcompanylogo {
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: -35px;
+  }
+
+  /* dropdown */
+  .select-menu {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  .itemverfieddoc {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: -30px;
+  }
+
+  .itemtextarea {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  .register__btn {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+  }
+}
+/* 2xl */
+/* @media (min-width: 1536px) {
+} */
+
+/*  */

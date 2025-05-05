@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Selector Menu</title>
+    <script>
+      // Function to display the selected option
+      function displaySelection() {
+        const dropdown = document.getElementById("category");
+        const selectedOption = dropdown.options[dropdown.selectedIndex].text;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Select a Business Category</h1>
+
+    <label for="category">Choose a category:</label>
+    <select id="category" name="category" onchange="displaySelection()">
+      <option value="hotels">Hotels</option>
+      <option value="supermarket">Supermarket</option>
+      <option value="cafeterias">Cafeterias</option>
+      <option value="restaurant">Restaurant</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="manufacturing">Manufacturing</option>
+      <option value="others">Others</option>
+    </select>
+
+    <p id="output"></p>
+  </body>
+</html>

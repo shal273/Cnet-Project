@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Cloud</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/util.css" />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./Components/login/login.css" />
+    <link
+      href="https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy-SemiBold"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="login__header container">
+      <div class="login__back">
+        <h4 class="login__backh4">Back</h4>
+        <button class="login__backbtn">
+          <svg
+            width="14"
+            height="14"
+            viewBox="0 0 14 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <rect
+              x="0.640137"
+              y="0.846436"
+              width="12.4489"
+              height="12.4489"
+              fill="url(#pattern0_1424_383)"
+            />
+            <defs>
+              <pattern
+                id="pattern0_1424_383"
+                patternContentUnits="objectBoundingBox"
+                width="1"
+                height="1"
+              >
+                <use
+                  xlink:href="#image0_1424_383"
+                  transform="scale(0.0111111)"
+                />
+              </pattern>
+              <image
+                id="image0_1424_383"
+                width="90"
+                height="90"
+                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVR4nO3cMUrEQABG4aCg1qu1di7a2YieT0TPYKmewMKTiNVurYKWYueTQYQFXTFL8m9k3neBDI+QTJKZNI0kSZIkSZIkSZIkhQGbwBhYNX4/gdeBa+CdTxPgwNjdR77lu6lndv+Rv+x3daxqAWvADb87XPY4a4hcGDoQuTB0IHJh6EDkwtCByIWhA5ELQwciF4YORC4MHYhcGDoQuTB0IHJh6AVeENXiDbgHToGtpktGnusJODZyxguw45mcceXlIuMV2BjC7KIGe974MtpNVYHz0MCoPfTDskf8Txl6qKHPUiOrPbSP2qn3Nk7vFjJuHdozO/TAYuzWLheObOw/ewa2my54g5zrETjqJLKxf3zxfwecAKNOI8/E9lNWih9ng1xuEOQCmiCXhAW5yDHIZbtBLkQPcmtFkJuFgtz+FuSGziDcojyI2FM33fcT+2LmNxIlsr+R6AswAnaBld4OIkmSJEmSJEmSJEnNcHwARlF2jtVdeSsAAAAASUVORK5CYII="
+              />
+            </defs>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="login container section2">
+        <div class="login__maininfo-wrap">
+          <div class="login__headerinfo">
+            <h1 class="login__welcome">
+              Welcome to <span class="login__redcloud">RedCloud</span>
+            </h1>
+            <h4 class="login__signh4">Sign in into your account</h4>
+          </div>
+          <form class="login__form">
+            <div class="login__usernameform">
+              <label id="username-loginpage" for="username-loginpage"
+                >User name</label
+              >
+              <input
+                class="login__entry"
+                id="username-loginpage"
+                type="text"
+                placeholder="User Name"
+              />
+            </div>
+            <div class="login__passform">
+              <label for="Password-loginpage">Password</label>
+              <input
+                class="login__entry"
+                id="Password-loginpage"
+                placeholder="Password"
+                type="password"
+              />
+              <h4 class="login__forgetpass">Forget password?</h4>
+            </div>
+            <div class="login__loginbtn-wrap">
+              <button class="login__btn">Login</button>
+            </div>
+            <div class="login__horizontal-wrap">
+              <hr class="login__linee" />
+              <h5 class="login__or">or</h5>
+            </div>
+            <div class="login__formfooter">
+              <a class="login__CustomerReg" href="/registration.html"
+                >Customer Registration</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="login__footer container section2">
+      <img class="loginfooter__img" src="/Images/redcloud.png" alt="redcloud" />
+    </footer>
+  </body>
+</html>
+

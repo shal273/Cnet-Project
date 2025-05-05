@@ -1,0 +1,39 @@
+.page6__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+  overflow: hidden;
+}
+
+.page6__header-wrap {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page6__Our {
+  color: var(--clr-red);
+  font-weight: bolder;
+}
+
+.page6__Customers {
+  font-weight: bold;
+}
+
+.page6__navigation {
+  display: flex;
+  padding: 5px 0px 5px 0px;
+  list-style: none;
+  gap: 2em;
+}
+.page6__items {
+  transition: transform 0.3s ease, border-bottom 0.3s linear;
+}
+
+.page6__items:hover {
+  transform: translateY(-5px);
+  border-bottom: 2px solid;
+  border-color: var(--clr-light2);
+}

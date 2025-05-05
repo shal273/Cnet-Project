@@ -1,0 +1,158 @@
+.page4 {
+  padding: 0px;
+}
+
+.page4__header-wrap {
+  margin-left: 1.5em;
+}
+
+.page4__element1 {
+  font-weight: bolder;
+  color: var(--clr-red1);
+  font-size: var(--size-sm);
+}
+.page4__element2 {
+  font-size: var(--size-lg);
+}
+
+.page4__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 590px;
+  background-image: url(/Images/Traingle/Triangle.png);
+}
+
+.page4__content {
+  display: flex;
+  gap: 1rem;
+}
+
+.page4__paragraph {
+  font-size: var(--size-xss);
+  font-weight: bold;
+  color: var(--clr-white);
+}
+
+.page4__line {
+  border: 2px solid white;
+  border-radius: 50px;
+}
+/* .container {} */
+/* xs */
+@media (min-width: 475px) {
+  .page4__element1 {
+    font-size: var(--size-xs);
+  }
+  .page4__element2 {
+    font-size: var(--size-lg);
+  }
+
+  .page4__info {
+    height: 590px;
+  }
+
+  .page4__paragraph {
+    font-size: var(--size-xss);
+  }
+}
+/* sm */
+@media (min-width: 640px) {
+  .page4__element1 {
+    font-size: var(--size-base);
+  }
+  .page4__element2 {
+    font-size: var(--size-2xl);
+  }
+
+  .page4__info {
+    height: 590px;
+  }
+  .page4__paragraph {
+    font-size: var(--size-xs);
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .page4 {
+    display: flex;
+    height: 581px;
+    background-image: url(/Images/Traingle/Traingle1.png);
+  }
+  .page4__element1 {
+    font-size: var(--size-sm);
+  }
+  .page4__element2 {
+    font-size: var(--size-xl);
+  }
+  .page4__info {
+    height: 531px;
+    background-image: none;
+  }
+
+  .page4__paragraph {
+    font-size: var(--size-xss);
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .page4 {
+    height: 774px;
+    background-image: url(/Images/Traingle/Traingle3.png);
+  }
+  .page4__element1 {
+    font-size: var(--size-base);
+  }
+  .page4__element2 {
+    font-size: var(--size-2xl);
+  }
+
+  .page4__info {
+    height: 694px;
+  }
+
+  .page4__paragraph {
+    font-size: var(--size-xs);
+  }
+}
+/* xl */
+@media (min-width: 1280px) {
+  .page4 {
+    height: 968px;
+    background-image: url(/Images/Traingle/Traingle2.png);
+  }
+  .page4__element1 {
+    font-size: var(--size-xl);
+  }
+  .page4__element2 {
+    font-size: var(--size-3xl);
+  }
+  .page4__info {
+    height: 888px;
+  }
+
+  .page4__paragraph {
+    font-size: var(--size-sm);
+  }
+}
+/* 2xl */
+@media (min-width: 1536px) {
+  .page4 {
+    height: 1161px;
+    background-image: url(/Images/Traingle/Traingle4.png);
+  }
+  .page4__element1 {
+    font-size: var(--size-2xl);
+  }
+  .page4__element2 {
+    font-size: var(--size-4xl);
+  }
+
+  .page4__info {
+    height: 1081px;
+    background-image: none;
+  }
+  .page4__paragraph {
+    font-size: var(--size-base);
+  }
+}

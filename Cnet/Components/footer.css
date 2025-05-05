@@ -1,0 +1,154 @@
+.footer {
+  padding: 0px;
+}
+
+.footer__header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer__header-wrap {
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.footer__input {
+  outline: none;
+  border-style: none;
+}
+.footer__btn {
+  border: 1px hidden;
+  background-color: var(--clr-red1);
+  color: var(--clr-white);
+  font-size: var(--size-xs);
+  margin-right: 10px;
+  border-radius: 50px;
+  padding: 15px;
+}
+::placeholder {
+  font-size: var(--size-xss);
+}
+/* 
+  width: 80px;
+  height: 50px; */
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  gap: 2rem;
+  color: var(--clr-lightgray);
+  font-size: var(--size-xs);
+  margin-top: 2rem;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 5rem;
+}
+
+.footer__img {
+  width: 100px;
+  height: 60px;
+}
+
+.footer__menu {
+  font-size: var(--size-sm);
+  color: var(--clr-red1);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.footer__ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.footer__contact {
+  color: var(--clr-red1);
+  margin-bottom: 1rem;
+}
+.footer__uppercontent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer__footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2rem;
+  padding: 0px;
+  gap: 2rem;
+  list-style: none;
+}
+
+.footer__privacy {
+  margin-bottom: 2rem;
+}
+.footer__copyright {
+  text-align: center;
+}
+
+.footer__contact {
+  font-size: var(--size-xs);
+}
+
+/* .container {} */
+/* xs */
+/* @media (min-width: 475px) {
+} */
+/* sm */
+@media (min-width: 640px) {
+  .footer__uppercontent {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: var(--size-xxs);
+  }
+  .footer__sec2 {
+    margin-top: 1.875rem;
+  }
+  .footer__sec3 {
+    margin-top: 1.875rem;
+  }
+  .footer__footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: var(--size-xss);
+    gap: 2rem;
+  }
+  .footer__privacy {
+    margin-bottom: 0rem;
+  }
+  .footer__copyright {
+    width: 10.805625rem;
+  }
+}
+/* md */
+@media (min-width: 768px) {
+  .footer__icons {
+    margin-left: 6rem;
+    margin-right: 12rem;
+  }
+}
+/* lg */
+@media (min-width: 1024px) {
+  .footer__icons {
+    margin-left: 5rem;
+    margin-right: 12rem;
+  }
+}

@@ -1,0 +1,80 @@
+.logo_redcloud{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .phrase_submitted  {
+    
+    font-family: 'Gilroy-Medium', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--clr-nero);
+    margin-top: 0.5rem;
+    
+  }
+  .border_in_successful_page {
+    width: 278px;
+    height: 80px;
+    border: 1px solid #D1D1D1;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .cont_successful_pg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; 
+    margin: 0;
+    border :1px solid red;
+  }
+  .little_rectangle{
+    width: 4px;
+    height: 36px;
+    border-radius: 4px;
+    background-color:#D30708;
+    display:flex;
+    margin-right: 15rem;
+    margin-top: 1.4rem;
+  }
+  .paragraph_in_successful_pg {
+    color: #3E3E3E;
+    display: flex;
+    justify-content: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+  }
+  .w-email_successful{
+    color: #9E9E9E;
+    display: flex;
+  }
+  .back_to_page_btn {
+    display: flex;
+    flex-direction:row;
+    margin:auto;
+    text-decoration:none;
+    background-color: #D30708;
+    font-family: 'Gilroy-Medium', sans-serif;
+    border:none;
+    
+  }
+  
+  .back_to_page_btn a {
+    text-decoration: none;
+    color:#FFFFFF ;
+    
+  }
+  
+  .back_to_page{
+    width: 303.32px;
+    height: 50px;
+    border-radius: 61px;
+    border:1px solid red;
+    color:#D30708;
+    display: flex;
+    margin-top: 3rem;
+    display:flex;
+    background-color: #D30708;
+  }

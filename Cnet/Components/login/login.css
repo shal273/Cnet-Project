@@ -1,0 +1,131 @@
+body {
+  margin: 3rem;
+}
+
+.login__header {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: right;
+}
+.login__back {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.login__backh4 {
+  font-size: var(--size-sm);
+}
+
+.login__backbtn {
+  background-color: var(--clr-red);
+  border: 1px hidden;
+  padding: 10px;
+  border-radius: 100%;
+}
+.login__backbtn svg {
+  display: block;
+}
+
+.loginfooter__img {
+  width: 110px;
+  height: 60px;
+}
+
+.login__maininfo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.login__headerinfo {
+  text-align: center;
+}
+
+.login__redcloud {
+  color: var(--clr-red1);
+}
+
+.login__signh4 {
+  color: var(--clr-lightgray1);
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.login__usernameform {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.login__passform {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.login__forgetpass {
+  text-align: right;
+  font-size: var(--size-xss);
+}
+
+::placeholder {
+  color: var(--clr-light2);
+}
+
+.login__entry {
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  outline-color: var(--clr-lightgray);
+  border-radius: 50px;
+  padding: 13px;
+  width: 250px;
+  font-size: var(--size-xs);
+}
+
+.login__btn {
+  border: 1px hidden;
+  border-radius: 50px;
+  padding: 10px;
+  width: 250px;
+  font-size: var(--size-sm);
+  color: var(--clr-white);
+  background-color: var(--clr-red1);
+}
+
+.login__horizontal {
+  display: flex;
+}
+.login__horizontal-wrap {
+  position: relative;
+  text-align: center;
+}
+.login__linee {
+  position: absolute;
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  border-radius: 50px;
+  width: 100%;
+  top: 50%;
+  z-index: -1;
+}
+
+.login__or {
+  display: inline;
+  background-color: var(--clr-white);
+  color: var(--clr-lightgray);
+  align-items: center;
+}
+
+.login__formfooter {
+  text-align: center;
+}
+
+.login__CustomerReg {
+  font-size: var(--size-xs);
+  text-decoration: none;
+}

@@ -1,0 +1,89 @@
+.page7__header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page7__testimony {
+  font-size: var(--size-xs);
+  color: var(--clr-red1);
+}
+
+.page7__slidinganim {
+  margin-top: 2rem;
+  position: relative;
+  max-width: auto;
+  margin-inline: auto;
+  overflow: hidden;
+  height: 200px;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.page7__border {
+  position: absolute;
+  width: 350px;
+  height: 200px;
+  border: 1px solid;
+  border-color: var(--clr-light2);
+  border-radius: 10px;
+  right: max(calc(350px * 3), 100%);
+  animation-name: slide;
+  animation-duration: 40s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.page7__paraborder {
+  width: 250px;
+  height: auto;
+}
+
+.page7__border-content {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto auto 2rem;
+  gap: 1rem;
+}
+
+.page7__paragraph {
+  font-size: var(--size-xxs);
+}
+.page7__profilename {
+  font-size: var(--size-xs);
+}
+.page7__profilerole {
+  font-size: var(--size-xxs);
+}
+
+.page7__profileContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.page7__profile {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  gap: 1rem;
+}
+
+@keyframes slide {
+  to {
+    right: -350px;
+  }
+}
+
+.border1 {
+  animation-delay: calc(40s / 3 * (3 - 1) * -1);
+}
+.border2 {
+  animation-delay: calc(40s / 3 * (3 - 2) * -1);
+}
+.border3 {
+  animation-delay: calc(40s / 3 * (3 - 3) * -1);
+}

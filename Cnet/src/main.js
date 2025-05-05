@@ -1,0 +1,12 @@
+import "../styles/modern-normalize.css";
+import "../styles/style.css";
+import "../Components/header.css";
+import "../Components/home.css";
+import "../Components/page2.css";
+import "../Components/page3.css";
+import "../Components/page4.css";
+import "../Components/page5.css";
+import "../Components/page6.css";
+import "../Components/page7.css";
+import "../Components/footer.css";
+import "../styles/util.css";
